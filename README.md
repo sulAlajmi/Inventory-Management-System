@@ -1,18 +1,19 @@
-## Getting Started
+Inventory Management - Observer Pattern
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Overview
 
-## Folder Structure
+This project is a simple implementation of the Observer Pattern used in the context of inventory management. It simulates how different systems (observers) are notified when there are updates in the inventory, such as low stock notifications for the admin, customer notifications when a product is back in stock, and sales report updates.
 
-The workspace contains two folders by default, where:
+The project is created for the Software Instructions course as part of applying the Observer pattern in a real-world scenario.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Features
+	•	Observer Pattern Implementation: Three types of observers (Admin, Customer, and Sales Report) monitor inventory updates.
+	•	Inventory Management: The inventory state (product name and stock level) is updated, and the observers are notified accordingly.
+	•	Different Notifications:
+	•	Admin is notified when the stock level is low.
+	•	Customers are notified when a product is back in stock.
+	•	Sales report is updated with the current stock levels.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Requirements
+	•	Java 8 or higher
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
